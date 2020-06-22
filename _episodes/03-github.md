@@ -14,7 +14,7 @@ keypoints:
 ---
 
 ## Putting your repository on GitHub.
-Now, let's put this project on GitHub so that we can share it with others. In your browser, navigate to `github.com`. Log in to you account if you are not already logged in. On the left side of the page, click the green button that says `New` to create a new repository. Give the repository the name `molecool`.
+Now, let's put this project on GitHub so that we can share it with others. In your browser, navigate to `github.com`. Log in to your account if you are not already logged in. On the left side of the page, click the green button that says `New` to create a new repository. Give the repository the name `molecool`.
 
 Note for the last question, "Initialize this repository with a README". We will leave this unchecked in our case because we have an existing repository (as described by GitHub, "This will let you immediately clone the repository to your computer. Skip this step if you’re importing an existing repository."). If you were creating the repository on GitHub, you would select this. There are also options for adding a `.gitignore` file or a license. However, since cookiecutter created these for us, we will not add them.
 
@@ -272,9 +272,9 @@ For example, if your text editor is Emacs, you may end up with lots of files cal
 By default, Git tracks all files, including these.
 This tends to be annoying, since it means that any time you do "git status", all of these unimportant files show up.
 
-We are now going to find out how to tell Git to ignore these files, so that it doesn't keep telling us about them ever time we do "git status".
+We are now going to find out how to tell Git to ignore these files, so that it doesn't keep telling us about them every time we do "git status".
 Even if you aren't working with Emacs, someone else working on your project might, so let's do the courtesy of telling Git not to track these temporary files.
-First, lets ensure that we have a few dummy files:
+First, let's ensure that we have a few dummy files:
 
 ~~~
 $ touch testing.txt~
@@ -402,7 +402,7 @@ $ git push
 ~~~
 {: .bash}
 
-One nice feature of .gitignore is that prevents us from accidentally adding a file that shouldn't be part of the repository.
+One nice feature of .gitignore is that it prevents us from accidentally adding a file that shouldn't be part of the repository.
 For example:
 
 ~~~
